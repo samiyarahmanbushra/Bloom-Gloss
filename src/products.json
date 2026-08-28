@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Resin Coaster Set",
+    "price": "৳ 1,850",
+    "image": "https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=900&q=80",
+    "badge": "New",
+    "category": "Coasters",
+    "description": "A polished set of handmade resin coasters with a luminous marble effect and a soft, protective finish.",
+    "material": "Epoxy resin, gold leaf accents",
+    "dimensions": "10 x 10 cm each",
+    "features": ["Heat-resistant finish", "Waterproof seal", "Gift-ready packaging"]
+  },
+  {
+    "id": 2,
+    "name": "Aurora Bloom Tray",
+    "price": "৳ 3,200",
+    "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=900&q=80",
+    "badge": "Bestseller",
+    "category": "Serving trays",
+    "description": "An elegant resin tray shaped to brighten your bedside table, vanity, or coffee corner with dreamy color layers.",
+    "material": "Crystal epoxy resin",
+    "dimensions": "35 x 25 cm",
+    "features": ["Scratch-resistant top coat", "Custom color blend", "Easy-care surface"]
+  },
+  {
+    "id": 3,
+    "name": "Velvet Ocean Vase",
+    "price": "৳ 4,900",
+    "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=900&q=80",
+    "badge": "Limited",
+    "category": "Vases",
+    "description": "A sculptural vase with deep ocean tones and a glossy finish that feels both modern and artistic.",
+    "material": "Clear resin with pigment layers",
+    "dimensions": "28 cm height",
+    "features": ["Hand-poured detail", "Water-safe finish", "Perfect for dried florals"]
+  },
+  {
+    "id": 4,
+    "name": "Luna Wall Art Panel",
+    "price": "৳ 5,400",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=900&q=80",
+    "badge": "Studio pick",
+    "category": "Wall decor",
+    "description": "A statement resin panel that catches light beautifully and adds a soft gallery feel to any wall.",
+    "material": "High-gloss epoxy resin",
+    "dimensions": "60 x 40 cm",
+    "features": ["Light-reflective finish", "Mounted ready", "Custom sizing available"]
+  },
+  {
+    "id": 5,
+    "name": "Rose Quartz Candle Holder",
+    "price": "৳ 2,650",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
+    "badge": "Fresh drop",
+    "category": "Candle decor",
+    "description": "A dreamy candle holder with blush tones and a translucent glow that makes evenings feel extra special.",
+    "material": "Resin and mica powders",
+    "dimensions": "12 cm base",
+    "features": ["Heat-safe design", "Soft pastel palette", "Ideal for gifting"]
+  },
+  {
+    "id": 6,
+    "name": "Mosaic Desk Organiser",
+    "price": "৳ 3,750",
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80",
+    "badge": "Popular",
+    "category": "Organisers",
+    "description": "A functional resin organiser with layered color blocks that keeps small essentials beautifully arranged.",
+    "material": "Epoxy resin and pigment",
+    "dimensions": "24 x 16 x 8 cm",
+    "features": ["Multi-compartment design", "Smudge-resistant finish", "Custom color options"]
+  },
+  {
+    "id": 7,
+    "name": "Golden Hour Jewelry Dish",
+    "price": "৳ 2,300",
+    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80",
+    "badge": "Limited",
+    "category": "Jewelry",
+    "description": "A compact resin dish with a golden shimmer and a softly curved silhouette for rings, earrings, and keepsakes.",
+    "material": "Resin with metallic accent",
+    "dimensions": "15 cm diameter",
+    "features": ["Smooth velvet feel", "Easy clean finish", "Perfect bedside accent"]
+  },
+  {
+    "id": 8,
+    "name": "Midnight Lotus Bowl",
+    "price": "৳ 4,100",
+    "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80",
+    "badge": "Signature",
+    "category": "Home decor",
+    "description": "A sculptural bowl with layered florals and a satin shine that feels luxurious on any table.",
+    "material": "Clear epoxy with embedded pigments",
+    "dimensions": "22 cm diameter",
+    "features": ["Decorative and functional", "High-gloss protection", "Made to order"]
+  }
+]

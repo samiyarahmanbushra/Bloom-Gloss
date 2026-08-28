@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title>Product fallback image</title>
+  <desc>Fallback graphic shown when a product image cannot load.</desc>
+  <rect width="640" height="480" fill="#f4f1ec"/>
+  <g opacity="0.9">
+    <rect x="80" y="80" width="480" height="320" rx="24" fill="#dad3c5"/>
+    <path d="M160 320h320" stroke="#b8a98f" stroke-width="18" stroke-linecap="round"/>
+    <path d="M160 240l82-82 65 69 86-105 87 118" fill="none" stroke="#7b6a4f" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="208" cy="208" r="22" fill="#7b6a4f"/>
+  </g>
+  <text x="50%" y="440" text-anchor="middle" fill="#7b6a4f" font-family="Inter, sans-serif" font-size="32">Image unavailable</text>
+</svg>
