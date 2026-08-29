@@ -3,6 +3,13 @@ import cors from 'cors'
 import dotenv from 'dotenv'
 import { MongoClient } from 'mongodb'
 import dns from 'dns'
+import path from 'path'
+import { fileURLToPath } from 'url'
+import fs from 'fs'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+const distPath = path.join(__dirname, 'dist')
 
 const fallbackProducts = []
 const fallbackOrders = []
@@ -400,6 +407,33 @@ app.post('/api/newsletter', async (req, res) => {
   }
 })
 
+// Serve static frontend assets if built
+if (fs.existsSync(distPath)) {
+  app.use(express.static(distPath))
+
+  // Fallback for Single Page Application (SPA) routing
+  app.use((req, res, next) => {
+    if (req.method === 'GET' && !req.path.startsWith('/api')) {
+      return res.sendFile(path.join(distPath, 'index.html'))
+    }
+    next()
+  })
+} else {
+  // Helpful root endpoint when frontend is not built
+  app.get('/', (_req, res) => {
+    res.json({
+      status: 'online',
+      message: 'Bloom & Gloss API is running!',
+      endpoints: {
+        health: '/api/health',
+        products: '/api/products',
+        courses: '/api/courses',
+        orders: '/api/orders',
+      },
+      note: 'To serve the React frontend, ensure the project is built (npm run build) before starting the server.',
+    })
+  })
+}
 
 const startServer = async () => {
   await connectToMongoDB()
